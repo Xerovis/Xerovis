@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XEROVIS — Vision Beyond Limits</title>
+    <meta
+      name="description"
+      content="XEROVIS is a futuristic AI vision and machine perception portfolio built with a cinematic dark design language."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient-bg" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+
+    <header class="top-nav">
+      <div class="brand">XEROVIS</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#domains">Domains</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <canvas id="particles" aria-hidden="true"></canvas>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">FUTURISTIC AI VISION LAB</p>
+          <h1>XEROVIS</h1>
+          <p class="subtitle" id="animatedSubtitle">Vision Beyond Limits</p>
+          <p class="lead">
+            Engineering intelligent perception systems through computer vision,
+            machine learning, and precision-focused cybernetic design.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-ghost">Start Collaboration</a>
+          </div>
+        </div>
+        <div class="hero-logo reveal" aria-hidden="true">
+          <div class="logo-orb"></div>
+          <div class="logo-ring logo-ring-1"></div>
+          <div class="logo-ring logo-ring-2"></div>
+          <div class="logo-core">XV</div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-head reveal">
+          <p class="eyebrow">ABOUT XEROVIS</p>
+          <h2>Intelligent Perception, Engineered with Precision</h2>
+        </div>
+        <p class="section-copy reveal">
+          XEROVIS is a futuristic computer vision and AI engineering identity focused
+          on machine perception, visual cognition, and high-performance intelligent
+          systems for next-generation research and deployment environments.
+        </p>
+        <div class="card-grid five reveal">
+          <article class="glass-card"><h3>AI Vision</h3><p>Advanced scene understanding and perception modeling.</p></article>
+          <article class="glass-card"><h3>Deep Learning</h3><p>Neural architectures optimized for accurate visual inference.</p></article>
+          <article class="glass-card"><h3>Visual Cognition</h3><p>Semantic interpretation and contextual intelligence at scale.</p></article>
+          <article class="glass-card"><h3>Intelligent Systems</h3><p>Edge-ready autonomous systems with real-time responsiveness.</p></article>
+          <article class="glass-card"><h3>Human-AI Interaction</h3><p>Cold, minimal interfaces designed for analytical clarity.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="domains">
+        <div class="section-head reveal">
+          <p class="eyebrow">CORE DOMAINS</p>
+          <h2>Specialized Vision Intelligence Verticals</h2>
+        </div>
+        <div class="card-grid ten reveal">
+          <article class="metal-card"><span>◉</span><h3>Computer Vision</h3></article>
+          <article class="metal-card"><span>▣</span><h3>Object Detection</h3></article>
+          <article class="metal-card"><span>⌗</span><h3>OCR</h3></article>
+          <article class="metal-card"><span>◈</span><h3>Vision-Language Models</h3></article>
+          <article class="metal-card"><span>✚</span><h3>Medical Imaging</h3></article>
+          <article class="metal-card"><span>➤</span><h3>Autonomous Vision</h3></article>
+          <article class="metal-card"><span>⚡</span><h3>Edge AI</h3></article>
+          <article class="metal-card"><span>◍</span><h3>Visual Analytics</h3></article>
+          <article class="metal-card"><span>⟁</span><h3>Surveillance Intelligence</h3></article>
+          <article class="metal-card"><span>◎</span><h3>Real-Time Tracking</h3></article>
+        </div>
+      </section>
+
+      <section class="section" id="showcase">
+        <div class="section-head reveal">
+          <p class="eyebrow">COMPUTER VISION SHOWCASE</p>
+          <h2>AI Vision Control Center</h2>
+        </div>
+        <div class="showcase-grid reveal">
+          <article class="hud-panel panel-main">
+            <h3>Object Detection Interface</h3>
+            <div class="feed feed-detection" role="img" aria-label="Futuristic object detection preview"></div>
+          </article>
+          <article class="hud-panel">
+            <h3>Segmentation Overlay</h3>
+            <div class="feed feed-segmentation" role="img" aria-label="Segmentation overlay preview"></div>
+          </article>
+          <article class="hud-panel">
+            <h3>Neural Pipeline</h3>
+            <div class="feed feed-pipeline" role="img" aria-label="Neural vision pipeline preview"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="stack">
+        <div class="section-head reveal">
+          <p class="eyebrow">TECHNOLOGY STACK</p>
+          <h2>Production-Grade AI Infrastructure</h2>
+        </div>
+        <div class="stack-grid reveal">
+          <div class="stack-item">Python</div>
+          <div class="stack-item">PyTorch</div>
+          <div class="stack-item">TensorFlow</div>
+          <div class="stack-item">OpenCV</div>
+          <div class="stack-item">CUDA</div>
+          <div class="stack-item">FastAPI</div>
+          <div class="stack-item">Docker</div>
+          <div class="stack-item">Linux</div>
+          <div class="stack-item">ONNX</div>
+          <div class="stack-item">YOLO</div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-head reveal">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>Cinematic Vision Engineering Portfolio</h2>
+        </div>
+        <div class="projects-grid reveal">
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>Real-Time Object Detection</h3>
+            <p>Latency-optimized inference engine for intelligent scene monitoring.</p>
+            <p class="tags">PyTorch • OpenCV • CUDA</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for Real-Time Object Detection">GitHub</a><a href="#" aria-label="Live demo for Real-Time Object Detection">Live Demo</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>Smart Surveillance System</h3>
+            <p>Event-driven anomaly detection with autonomous risk tagging.</p>
+            <p class="tags">YOLO • FastAPI • Docker</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for Smart Surveillance System">GitHub</a><a href="#" aria-label="Live demo for Smart Surveillance System">Live Demo</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>AI Traffic Monitoring</h3>
+            <p>Vision analytics framework for urban mobility intelligence.</p>
+            <p class="tags">TensorFlow • Python • Linux</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for AI Traffic Monitoring">GitHub</a><a href="#" aria-label="Live demo for AI Traffic Monitoring">Live Demo</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>OCR Intelligence Engine</h3>
+            <p>High-fidelity text extraction and layout cognition pipeline.</p>
+            <p class="tags">OCR • ONNX • OpenCV</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for OCR Intelligence Engine">GitHub</a><a href="#" aria-label="Live demo for OCR Intelligence Engine">Live Demo</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>Medical Vision AI</h3>
+            <p>Diagnostic imaging workflow with segmentation confidence mapping.</p>
+            <p class="tags">UNet • PyTorch • DICOM</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for Medical Vision AI">GitHub</a><a href="#" aria-label="Live demo for Medical Vision AI">Live Demo</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview"></div>
+            <h3>Autonomous Drone Vision</h3>
+            <p>Edge AI navigation with multi-target tracking and collision inference.</p>
+            <p class="tags">Edge AI • CUDA • ROS</p>
+            <div class="project-actions"><a href="#" aria-label="GitHub for Autonomous Drone Vision">GitHub</a><a href="#" aria-label="Live demo for Autonomous Drone Vision">Live Demo</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="timeline">
+        <div class="section-head reveal">
+          <p class="eyebrow">AI RESEARCH TIMELINE</p>
+          <h2>From Perception to Autonomous Intelligence</h2>
+        </div>
+        <ol class="timeline reveal">
+          <li><span>2023</span><p>Foundation of XEROVIS perception research architecture.</p></li>
+          <li><span>2024</span><p>Multi-domain detection and real-time visual analytics deployment.</p></li>
+          <li><span>2025</span><p>Vision-language integration and cognitive scene reasoning.</p></li>
+          <li><span>2026</span><p>Edge autonomous systems with adaptive neural perception loops.</p></li>
+        </ol>
+      </section>
+
+      <section class="section" id="future">
+        <div class="section-head reveal">
+          <p class="eyebrow">FUTURE VISION</p>
+          <h2>Where Intelligence Learns to See</h2>
+        </div>
+        <p class="section-copy reveal">
+          XEROVIS is building the future of visual intelligence: scalable,
+          autonomous, ethically aligned perception systems that transform
+          industries with precise machine cognition.
+        </p>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer section">
+      <div class="footer-brand">
+        <h2>XEROVIS</h2>
+        <p>Vision Beyond Limits</p>
+      </div>
+      <div class="footer-links">
+        <a href="#" aria-label="XEROVIS GitHub">GitHub</a>
+        <a href="#" aria-label="XEROVIS LinkedIn">LinkedIn</a>
+        <a href="mailto:research@xerovis.ai">Email</a>
+        <a href="#" aria-label="XEROVIS Research">Research</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
